@@ -3,7 +3,19 @@
 </p>
 
 # Teslo API
-1. Levantar la base de datps
+1. Clonar proyecto
+2. Instalar dependencias del proyecto
+```
+npm run install
+```
+3. Clonar el archivo ```.env.template``` y renombrar a ```.env```
+
+4. Levantar la base de datos
 ```
 docker compose up -d 
+```
+
+4. Correr el proyecto en modo desarrollo
+```
+npm run:dev
 ```
