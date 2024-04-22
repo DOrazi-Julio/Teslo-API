@@ -15,6 +15,11 @@ npm run install
 docker compose up -d 
 ```
 
+5. Ejecutar SEED ( Inicializa la bd con datos estáticos )
+```
+localhost:3000/api/seed
+```
+
 4. Correr el proyecto en modo desarrollo
 ```
 npm run:dev
